@@ -13,7 +13,7 @@ from googletrans import Translator, LANGUAGES
 load_dotenv()
 
 
-class DeepDubber:
+class VibeDub:
     def __init__(self, *, video_path: os.PathLike) -> None:
         try:
             self.video = mp.VideoFileClip(video_path, audio=True)
@@ -178,7 +178,7 @@ class DeepDubber:
             https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 
         Example:
-            >>> dubber = DeepDubber("video.mp4")
+            >>> dubber = VibeDub("video.mp4")
             >>> dubber.run("output.mp4", language="es")
         """
         subtitles = asyncio.get_event_loop().run_until_complete(self._get_subtitles())
@@ -187,18 +187,18 @@ class DeepDubber:
             subtitles, initial_lang=initial_lang, output_file=output_file
         )
 
-        DeepDubber.cleanup() if cleanup else None
+        VibeDub.cleanup() if cleanup else None
 
-        print("⚡ Thanks for using DeepDubber! Have a nice day!")
+        print("⚡ Thanks for using VibeDub! Have a nice day!")
 
 
 if __name__ == "__main__":
-    dubber = DeepDubber(video_path="./assets/input.mp4")
+    dubber = VibeDub(video_path="./assets/input.mp4")
     dubber.run(language="hi", cleanup=False)
 
 
 # Suppose if you want to convert from French to Hindi then
 # if __name__ == "__main__":
-#   dubber = DeepDubber(video_path="./assets/input.mp4")
+#   dubber = VibeDub(video_path="./assets/input.mp4")
 #   dubber.run(language="hi", initial_lang="fr", cleanup=False)
 

@@ -1,0 +1,48 @@
+ISO 639-1 Language Codes:
+Arabic - ar
+
+Chinese (Simplified) - zh
+
+Chinese (Traditional) - zh-TW
+
+Czech - cs
+
+Danish - da
+
+Dutch - nl
+
+English - en
+
+Finnish - fi
+
+French - fr
+
+German - de
+
+Greek - el
+
+Hindi - hi
+
+Hungarian - hu
+
+Italian - it
+
+Japanese - ja
+
+Korean - ko
+
+Polish - pl
+
+Portuguese - pt
+
+Romanian - ro
+
+Russian - ru
+
+Spanish - es
+
+Turkish - tr
+
+Ukrainian - uk
+
+Vietnamese - vi

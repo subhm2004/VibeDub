@@ -195,3 +195,10 @@ class DeepDubber:
 if __name__ == "__main__":
     dubber = DeepDubber(video_path="./assets/input.mp4")
     dubber.run(language="hi", cleanup=False)
+
+
+# Suppose if you want to convert from French to Hindi then
+# if __name__ == "__main__":
+#   dubber = DeepDubber(video_path="./assets/input.mp4")
+#   dubber.run(language="hi", initial_lang="fr", cleanup=False)
+

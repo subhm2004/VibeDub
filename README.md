@@ -2,10 +2,8 @@
 
 Dubs the video in another language — automatically and efficiently.
 VibeDub uses the Deepgram API to transcribe audio from your video with high accuracy, then leverages Google Translate to convert that transcription into your target language. The result is a newly dubbed video, complete with synced audio and translated speech — all in a few steps.
-
 ***
 <br><br>
-
 Check out the [Assets folder](./assets/) for Demo videos. 
 
 # 👀 Why VibeDub?
